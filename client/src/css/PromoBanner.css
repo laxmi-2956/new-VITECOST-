@@ -1,0 +1,51 @@
+.promo-banner {
+  background-image: url('../assets/banner-full-bg.png'); /* Use your full banner image */
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  color: #2b2b2b;
+  position: relative;
+}
+
+.promo-content {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 50%;
+}
+
+.promo-heading {
+  font-size: 22px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.promo-discount {
+  font-size: 34px;
+  color: #669900;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.shop-btn {
+  background-color: #2b2b2b;
+  color: white;
+  padding: 12px 26px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.promo-code {
+  font-size: 16px;
+}
+
+.promo-code span {
+  color: #669900;
+  font-weight: bold;
+}

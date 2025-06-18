@@ -1,0 +1,25 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+.container {
+  padding: 20px;
+} 
+
+h1, h2, h3 {
+  color: #003366;
+}

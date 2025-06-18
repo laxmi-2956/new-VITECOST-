@@ -1,0 +1,115 @@
+/* .fresh-finds-container {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.fresh-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.fresh-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.fresh-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+   margin: 0px 20px;
+}
+
+.fresh-image-circle {
+  width: 270px; 
+  height: 270px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+ 
+}
+
+.fresh-image {
+  width: 3700px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%; 
+}
+
+.fresh-name {
+  font-size: 16px;
+  margin-top: 12px;
+  font-weight: 600;
+}
+.fresh-desc {
+  font-size: 14px;
+  color: #666;
+  margin-top: 6px;
+  padding: 0 10px;
+  text-align: center;
+} */
+
+
+.fresh-finds-container {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.fresh-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.fresh-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.fresh-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  margin: 0px 20px;
+}
+
+/* .fresh-image-wrapper {
+  width: 220px;
+  height: 220px;
+  border-radius: 10px; /* 🔄 Use rounded corners, not circle */
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+} 
+
+.fresh-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fresh-name {
+  font-size: 18px;
+  margin-top: 12px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+.fresh-desc {
+  font-size: 20px;
+  color: #666;
+  margin-top: 6px;
+  padding: 0 10px;
+  text-align: center;
+}

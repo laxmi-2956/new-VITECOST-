@@ -1,0 +1,93 @@
+.explore-shops-container {
+  padding: 20px;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.explore-shops-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #333;
+}
+
+.shops-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 300px;
+  gap: 20px;
+}
+
+
+.shop-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  background-color: #fff;
+}
+
+.shop-card:hover {
+  transform: scale(1.02);
+}
+
+.large-card {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+
+.image-container {
+  flex: 1;
+  overflow: hidden;
+  height: 100%;
+}
+
+.shop-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-container {
+  padding: 0px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(235, 222, 222, 0.8);
+}
+
+.shop-title {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.shop-description {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .shops-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 220px;
+  }
+
+  .large-card {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+
+  .text-container {
+    position: relative;
+    background: white;
+  }
+} 

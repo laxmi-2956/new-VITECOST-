@@ -1,0 +1,127 @@
+.level-up-game {
+  padding: 40px 20px;
+  text-align: center;
+  height: 500px;
+  
+}
+
+
+.title-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* space between text and lines */
+  margin: 40px 0;
+}
+
+.titles {
+  font-size: 30px;
+  font-weight: 700;
+  color: #222;
+  white-space: nowrap;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #333;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.divider {
+  width: 90%;
+  height: 2px;
+  background-color: #333;
+  margin: 0 auto 20px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0px;
+  
+  background-color: #333;
+}
+
+.text-section {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.dividers {
+  height: 100px;
+  width: 4px;
+  background-color: #7b7777;
+  margin: 0 10px;
+}
+
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 15px;
+padding-right: 40px;
+}
+
+.sport {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.certified {
+  color: #ff6f1e;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.mlr-logo {
+  margin: 20px 0;
+}
+
+.description {
+  font-size: 16px;
+  color: #dcdcdc;
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+}
+
+.shop-btn {
+  background-color: #ff6f1e;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.shop-btn:hover {
+  background-color: #e05c0e;
+}
+
+
+.video-section {
+  flex: 1;
+  max-width: 800px;
+}
+
+.yt-video {
+  width: 100%;
+  height: 100%;
+  min-height: 360px;
+  border: none;
+}

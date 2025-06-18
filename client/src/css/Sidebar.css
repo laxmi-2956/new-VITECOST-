@@ -1,0 +1,73 @@
+/* src/components/Sidebar.css */
+.shop-btn {
+  font-size: 20px;
+  background: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 80%;
+  max-width: 350px;
+  height: 100vh;
+  background-color: white;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+  transition: left 0.3s ease-in-out;
+  z-index: 999;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  float: right;
+  cursor: pointer;
+}
+
+.signin {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.sidebar-section {
+  margin: 20px 0;
+}
+
+.sidebar-section h4 {
+  font-size: 18px;
+  margin: 15px 0 5px;
+}
+
+.sidebar-section h5 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.sidebar-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar-section li {
+  margin: 6px 0;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.back {
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
