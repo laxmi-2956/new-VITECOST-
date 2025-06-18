@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import "../css/TopSellers.css";
+import "../css/Topsellers.css"
 import { Link } from "react-router-dom";
 
 function TopSellers() {
